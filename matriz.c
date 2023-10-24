@@ -26,7 +26,7 @@ int main (void){
             printf("\n Elemento [%d][%d] =  %d   ", i, j, matriz[i][j]);
             
         }
-        
+        printf("\n");
      }
      
 
