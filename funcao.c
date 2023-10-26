@@ -13,6 +13,8 @@ int main ()
 {
     void imprimaMensagem(void); // Declaração da função
     imprimaMensagem(); //Chamado de função
+    imprimaMensagem();
+    imprimaMensagem();
     return 0;
 }
 

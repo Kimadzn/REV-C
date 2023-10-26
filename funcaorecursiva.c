@@ -1,19 +1,5 @@
 #include <stdio.h>
 
-int main (void){
-    
-    int fatorial(int x);
-    int numero, resultado;
-
-    printf("Digite um nuemro inteiro:\n");
-    scanf("%i", &numero);
-
-    resultado = fatorial(numero);
-
-    printf("O fatorial e %i\n",resultado);
-    system("pause");
-    return 0;
-}
 
 int fatorial(int x){
 
@@ -28,3 +14,19 @@ int fatorial(int x){
     return resultado;
 
 }
+
+int main (void){
+    
+    
+    int numero, resultado;
+
+    printf("Digite um nuemro inteiro:\n");
+    scanf("%i", &numero);
+
+    resultado = fatorial(numero);
+
+    printf("O fatorial e %i\n",resultado);
+    system("pause");
+    return 0;
+}
+
