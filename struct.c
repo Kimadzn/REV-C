@@ -9,10 +9,10 @@ struct fichaALuno{
     float nota1;
     float nota2;
 
-}
+};
 //Criando a variável aluno que sera do tipo struct fichaAluno
 
-scruct fichaALuno aluno;
+struct fichaALuno aluno;
 
 printf("Numero de matricula.. :");
 scanf("%d", &aluno.matricula);
